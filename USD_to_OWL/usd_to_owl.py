@@ -77,12 +77,10 @@ def usd_to_owl(file_path: str) -> None:
 
     with ABox_onto:
         for prim_name, prim_type in prim_types.items():
-            if (attr:=getattr(soma_onto, prim_type)) != None:
-                prim = attr(prim_name)
-            elif (attr:=getattr(soma_onto, prim_type)) != None:
-                prim = attr(prim_name)
-            elif len(onto:=TBox_onto.search(iri='*'+prim_type)) == 1:
+            if len(onto:=TBox_onto.search(iri='*'+prim_type)) == 1:
                 onto[0](prim_name)
+            else:
+                print(prim_type, 'not found', file=sys.stderr)
 
     TBox_onto.save(file=onto_path[0] + '/TBox.owl')
     ABox_onto.save(file=onto_path[0] + '/ABox.owl')

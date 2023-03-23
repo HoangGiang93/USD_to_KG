@@ -44,7 +44,7 @@
 </owl:Class>
 
 <owl:Class rdf:about="#IslandCover">
-  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Cover"/>
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Window">
