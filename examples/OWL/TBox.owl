@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://iai_apartment/TBox.owl"
+         xmlns="http://iai_apartment/TBox.owl#">
+
+<owl:Ontology rdf:about="http://iai_apartment/TBox.owl">
+  <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
+  <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA-HOME.owl"/>
+</owl:Ontology>
+
+<owl:Class rdf:about="#CabinetDrawer">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Drawer"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FridgeDrawer">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Drawer"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CoffeeTableDrawer">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Drawer"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SinkDrawer">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Drawer"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CabinetDoor">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WardrobeDoor">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OvenDoor">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FridgeDoor">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+</owl:Class>
+
+<owl:Class rdf:about="#IslandCover">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Cover"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Window">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WindowFrame">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Rack"/>
+</owl:Class>
+
+
+</rdf:RDF>

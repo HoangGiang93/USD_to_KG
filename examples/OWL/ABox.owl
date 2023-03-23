@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://iai_apartment/ABox.owl"
+         xmlns="http://iai_apartment/ABox.owl#"
+         xmlns:SOMA="http://www.ease-crc.org/ont/SOMA.owl#"
+         xmlns:TBox="http://iai_apartment/TBox.owl#"
+         xmlns:SOMA2="http://www.ease-crc.org/ont/SOMA-HOME.owl#">
+
+<owl:Ontology rdf:about="http://iai_apartment/ABox.owl">
+  <owl:imports rdf:resource="http://iai_apartment/TBox.owl"/>
+</owl:Ontology>
+
+<SOMA:Floor rdf:about="#floor">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Floor>
+
+<TBox:WindowFrame rdf:about="#window4_frame">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:WindowFrame>
+
+<SOMA:Wall rdf:about="#wall_coloksu_wall1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Wall>
+
+<SOMA:Wall rdf:about="#wall_coloksu_wall2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Wall>
+
+<SOMA:Wall rdf:about="#wall_coloksu_wall3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Wall>
+
+<SOMA:Wall rdf:about="#wall_coloksu_wall4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Wall>
+
+<SOMA2:Wardrobe rdf:about="#wardrobe">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:Wardrobe>
+
+<SOMA2:Armchair rdf:about="#armchair">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:Armchair>
+
+<SOMA2:Sofa rdf:about="#sofa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:Sofa>
+
+<SOMA2:CoffeeTable rdf:about="#coffee_table">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:CoffeeTable>
+
+<SOMA2:BedsideTable rdf:about="#bedside_table">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:BedsideTable>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<TBox:CabinetDoor rdf:about="#cabinet4_door1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDoor>
+
+<TBox:CabinetDoor rdf:about="#cabinet4_door2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDoor>
+
+<SOMA:DesignedHandle rdf:about="#cabinet4_door2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<SOMA:Countertop rdf:about="#counter_wall">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Countertop>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<TBox:IslandCover rdf:about="#island_cover4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:IslandCover>
+
+<SOMA:Countertop rdf:about="#counter_sink_stove">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Countertop>
+
+<SOMA:Stove rdf:about="#stove">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Stove>
+
+<SOMA2:Sink rdf:about="#counter_sink">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:Sink>
+
+<SOMA:Dishwasher rdf:about="#dishwasher">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:Dishwasher>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet8">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet9">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet10">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<SOMA2:KitchenCabinet rdf:about="#cabinet11">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA2:KitchenCabinet>
+
+<TBox:IslandCover rdf:about="#island_cover1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:IslandCover>
+
+<TBox:IslandCover rdf:about="#island_cover3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:IslandCover>
+
+<TBox:IslandCover rdf:about="#island_cover5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:IslandCover>
+
+<TBox:Window rdf:about="#window4_right">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:Window>
+
+<TBox:Window rdf:about="#window4_left">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:Window>
+
+<TBox:WardrobeDoor rdf:about="#wardrobe_door_left">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:WardrobeDoor>
+
+<SOMA:DesignedHandle rdf:about="#wardrobe_door_left_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:WardrobeDoor rdf:about="#wardrobe_door_right">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:WardrobeDoor>
+
+<SOMA:DesignedHandle rdf:about="#wardrobe_door_right_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CoffeeTableDrawer rdf:about="#coffee_table_drawer">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CoffeeTableDrawer>
+
+<TBox:CabinetDoor rdf:about="#cabinet1_door">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDoor>
+
+<SOMA:DesignedHandle rdf:about="#cabinet1_door_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet1_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet1_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet1_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet1_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:OvenDoor rdf:about="#oven_door">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:OvenDoor>
+
+<TBox:CabinetDoor rdf:about="#cabinet2_door">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDoor>
+
+<SOMA:DesignedHandle rdf:about="#cabinet2_door_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet2_drawer6">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<TBox:FridgeDoor rdf:about="#fridge_door1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDoor>
+
+<SOMA:DesignedHandle rdf:about="#fridge_door1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:FridgeDoor rdf:about="#fridge_door2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDoor>
+
+<SOMA:DesignedHandle rdf:about="#fridge_door2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:FridgeDrawer rdf:about="#fridge_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDrawer>
+
+<TBox:FridgeDrawer rdf:about="#fridge_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDrawer>
+
+<TBox:FridgeDrawer rdf:about="#fridge_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDrawer>
+
+<TBox:FridgeDrawer rdf:about="#fridge_drawer4">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDrawer>
+
+<TBox:FridgeDrawer rdf:about="#fridge_drawer5">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:FridgeDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet5_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet5_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet5_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet5_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet5_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet5_drawer3_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet6_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet6_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet6_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet6_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet6_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet6_drawer3_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<SOMA:DesignedHandle rdf:about="#dishwasher_front_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:SinkDrawer rdf:about="#sink_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:SinkDrawer>
+
+<SOMA:DesignedHandle rdf:about="#sink_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:SinkDrawer rdf:about="#sink_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:SinkDrawer>
+
+<TBox:CabinetDrawer rdf:about="#cabinet9_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet9_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet9_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet9_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet9_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet9_drawer3_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet10_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet10_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet10_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet10_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet10_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet10_drawer3_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet11_drawer1">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet11_drawer1_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet11_drawer2">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet11_drawer2_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+<TBox:CabinetDrawer rdf:about="#cabinet11_drawer3">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:CabinetDrawer>
+
+<SOMA:DesignedHandle rdf:about="#cabinet11_drawer3_handle">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</SOMA:DesignedHandle>
+
+
+</rdf:RDF>
