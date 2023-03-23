@@ -75,6 +75,9 @@ def usd_to_owl(file_path: str) -> None:
         class WindowFrame(soma_onto.Rack):
             pass
 
+        class WaterTab(soma_onto.DesignedComponent):
+            pass
+
     with ABox_onto:
         for prim_name, prim_type in prim_types.items():
             if len(onto:=TBox_onto.search(iri='*'+prim_type)) == 1:

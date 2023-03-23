@@ -2227,7 +2227,7 @@ def Xform "world"
                                 point3f physics:centerOfMass = (-0.01469326, 0.079966486, 0.0038307062)
                                 float3 physics:diagonalInertia = (0.009072517, 0.007913992, 0.00154421)
                                 float physics:mass = 0
-                                string semantic:Semantics_uC5U:params:semanticData = "Watertab"
+                                string semantic:Semantics_uC5U:params:semanticData = "WaterTab"
                                 string semantic:Semantics_uC5U:params:semanticType = "class"
                                 matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0.0196184, 0.0767719, 0.238987, 1) )
                                 uniform token[] xformOpOrder = ["xformOp:transform"]

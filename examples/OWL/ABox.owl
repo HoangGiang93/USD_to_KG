@@ -113,6 +113,10 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </SOMA2:Sink>
 
+<TBox:WaterTab rdf:about="#counter_watertab">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+</TBox:WaterTab>
+
 <SOMA:Dishwasher rdf:about="#dishwasher">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </SOMA:Dishwasher>
