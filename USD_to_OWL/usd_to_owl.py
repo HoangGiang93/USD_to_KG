@@ -2,11 +2,13 @@
 
 import sys
 import os
+import re
+import importlib
 from pxr import Usd
 from owlready2 import onto_path, get_ontology
 
-type_set = set()
-prim_types = dict()
+class_set = set()
+prim_classes = dict()
 
 
 def usd_to_owl(file_path: str) -> None:
@@ -15,9 +17,9 @@ def usd_to_owl(file_path: str) -> None:
         for prop in prim.GetPropertyNames():
             if 'semanticType' in prop and prim.GetAttribute(prop).Get() == 'class':
                 prop = prop.replace('Type', 'Data')
-                prim_type = prim.GetAttribute(prop).Get()
-                type_set.add(prim_type)
-                prim_types[prim.GetName()] = prim_type
+                prim_class = prim.GetAttribute(prop).Get()
+                class_set.add(prim_class)
+                prim_classes[prim.GetName()] = prim_class
                 break
 
     onto_path.append('examples/OWL')
@@ -42,30 +44,6 @@ def usd_to_owl(file_path: str) -> None:
     ABox_onto.imported_ontologies.append(TBox_onto)
 
     with TBox_onto:
-        class CabinetDrawer(soma_onto.Drawer):
-            pass
-
-        class FridgeDrawer(soma_onto.Drawer):
-            pass
-
-        class CoffeeTableDrawer(soma_onto.Drawer):
-            pass
-
-        class SinkDrawer(soma_onto.Drawer):
-            pass
-
-        class CabinetDoor(soma_onto.Door):
-            pass
-
-        class WardrobeDoor(soma_onto.Door):
-            pass
-
-        class OvenDoor(soma_onto.Door):
-            pass
-
-        class FridgeDoor(soma_onto.Door):
-            pass
-
         class IslandCover(soma_onto.DesignedComponent):
             pass
 
@@ -77,13 +55,21 @@ def usd_to_owl(file_path: str) -> None:
 
         class WaterTab(soma_onto.DesignedComponent):
             pass
-
+    
     with ABox_onto:
-        for prim_name, prim_type in prim_types.items():
-            if len(onto:=TBox_onto.search(iri='*'+prim_type)) == 1:
+        for prim_name, prim_class in prim_classes.items():
+            if len(onto:=TBox_onto.search(iri='*'+prim_class)) == 1:
                 onto[0](prim_name)
             else:
-                print(prim_type, 'not found', file=sys.stderr)
+                print(prim_class, 'not found, create a new class')
+                prim_child_classes = re.findall('[A-Z][^A-Z]*', prim_class)
+                prim_child_classes.reverse()
+                for prim_child_class in prim_child_classes:
+                    if (onto:=TBox_onto.search_one(iri='*'+prim_child_class)) != None:
+                        with TBox_onto:
+                            exec('class %s(%s):\n\tpass' %(prim_class, 'soma_onto.' + str(onto).split('.')[1]))
+                        eval('%s("%s")' %(prim_class, prim_name))
+                        break
 
     TBox_onto.save(file=onto_path[0] + '/TBox.owl')
     ABox_onto.save(file=onto_path[0] + '/ABox.owl')
