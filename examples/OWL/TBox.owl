@@ -15,20 +15,20 @@
   <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Window">
-  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
-</owl:Class>
-
 <owl:Class rdf:about="#WindowFrame">
   <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Rack"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CabinetDoor">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
 </owl:Class>
 
 <owl:Class rdf:about="#WaterTab">
   <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
 </owl:Class>
 
-<owl:Class rdf:about="#CabinetDoor">
-  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#Door"/>
+<owl:Class rdf:about="#Window">
+  <rdfs:subClassOf rdf:resource="http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent"/>
 </owl:Class>
 
 <owl:Class rdf:about="#WardrobeDoor">

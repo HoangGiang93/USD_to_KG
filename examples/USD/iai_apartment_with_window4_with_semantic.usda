@@ -722,7 +722,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (-0.07706114, 0.03069221, 0.08507417)
                         float3 physics:diagonalInertia = (44.755943, 41.348133, 9.135281)
                         float physics:mass = 0
-                        string semantic:Semantics_dgQ4:params:semanticData = "Cabinet"
+                        string semantic:Semantics_dgQ4:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_dgQ4:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.284632, 1.46676, 1.11441, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -947,7 +947,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.03405041, 0.06526537)
                         float3 physics:diagonalInertia = (28.632782, 28.588385, 3.1973345)
                         float physics:mass = 0
-                        string semantic:Semantics_EFhm:params:semanticData = "Cabinet"
+                        string semantic:Semantics_EFhm:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_EFhm:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.279909, 1.97705, 1.16239, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -1142,7 +1142,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0.00048441917, -0.008527586, 0.085132115)
                         float3 physics:diagonalInertia = (48.640648, 45.904274, 6.8833714)
                         float physics:mass = 0
-                        string semantic:Semantics_IuJx:params:semanticData = "Cabinet"
+                        string semantic:Semantics_IuJx:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_IuJx:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.274985, 2.4799, 1.16288, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -1551,7 +1551,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0.081960484, 0.042299215, -0.000015838574)
                         float3 physics:diagonalInertia = (7.5693283, 5.228653, 3.1578875)
                         float physics:mass = 0
-                        string semantic:Semantics_CrFv:params:semanticData = "Cabinet"
+                        string semantic:Semantics_CrFv:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_CrFv:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.182244, 3.29388, 1.82711, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -1679,7 +1679,7 @@ def Xform "world"
                                 point3f physics:centerOfMass = (-0.017291656, 0, 0)
                                 float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
                                 float physics:mass = 0
-                                string semantic:Semantics_vJTG:params:semanticData = "Handle"
+                                string semantic:Semantics_vJTG:params:semanticData = "DesignedHandle"
                                 string semantic:Semantics_vJTG:params:semanticType = "class"
                                 matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.0141519, -0.0410386, -0.133571, 1) )
                                 uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -1796,7 +1796,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.045634627, -0.0720516)
                         float3 physics:diagonalInertia = (3.1576848, 2.3979921, 2.1526704)
                         float physics:mass = 0
-                        string semantic:Semantics_ixr8:params:semanticData = "Cabinet"
+                        string semantic:Semantics_ixr8:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_ixr8:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.274766, 3.08412, 0.494207, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -1907,7 +1907,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.034447238, -0.054388054)
                         float3 physics:diagonalInertia = (1.9767264, 1.9737027, 1.1823037)
                         float physics:mass = 0
-                        string semantic:Semantics_hZrj:params:semanticData = "Cabinet"
+                        string semantic:Semantics_hZrj:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_hZrj:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.274766, 3.58384, 0.494207, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -2486,7 +2486,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.04543142, -0.07251122)
                         float3 physics:diagonalInertia = (3.1352587, 2.381179, 2.1342988)
                         float physics:mass = 0
-                        string semantic:Semantics_7R7p:params:semanticData = "Cabinet"
+                        string semantic:Semantics_7R7p:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_7R7p:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, -0.9999999999999998, -0, 0), (0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, -0, 1, 0), (2.49268, 3.37232, 0.494481, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -2583,7 +2583,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.04543142, -0.07251122)
                         float3 physics:diagonalInertia = (3.1352587, 2.381179, 2.1342988)
                         float physics:mass = 0
-                        string semantic:Semantics_PsNv:params:semanticData = "Cabinet"
+                        string semantic:Semantics_PsNv:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_PsNv:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, -0.9999999999999998, -0, 0), (0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, -0, 1, 0), (2.49288, 2.77269, 0.494068, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -2694,7 +2694,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.034447238, -0.054388054)
                         float3 physics:diagonalInertia = (1.9767264, 1.9737027, 1.1823037)
                         float physics:mass = 0
-                        string semantic:Semantics_hbqy:params:semanticData = "Cabinet"
+                        string semantic:Semantics_hbqy:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_hbqy:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, -0.9999999999999998, -0, 0), (0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, -0, 1, 0), (2.49299, 2.27192, 0.50112, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -2805,7 +2805,7 @@ def Xform "world"
                         point3f physics:centerOfMass = (0, 0.05768674, -0.091080435)
                         float3 physics:diagonalInertia = (5.822687, 4.4897346, 3.0065546)
                         float physics:mass = 0
-                        string semantic:Semantics_0bR2:params:semanticData = "Cabinet"
+                        string semantic:Semantics_0bR2:params:semanticData = "KitchenCabinet"
                         string semantic:Semantics_0bR2:params:semanticType = "class"
                         matrix4d xformOp:transform = ( (2.220446049250313e-16, -0.9999999999999998, -0, 0), (0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, -0, 1, 0), (2.49294, 1.62156, 0.509844, 1) )
                         uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3227,7 +3227,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.0053838952, 0, 0)
             float3 physics:diagonalInertia = (0.00009915017, 0.000092480914, 0.000008305764)
             float physics:mass = 0
-            string semantic:Semantics_kEvs:params:semanticData = "Handle"
+            string semantic:Semantics_kEvs:params:semanticData = "DesignedHandle"
             string semantic:Semantics_kEvs:params:semanticType = "class"
             matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.032089, -0.460513, 0.973703, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3300,7 +3300,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.0053838952, 0, 0)
             float3 physics:diagonalInertia = (0.00009915017, 0.000092480914, 0.000008305764)
             float physics:mass = 0
-            string semantic:Semantics_hV49:params:semanticData = "Handle"
+            string semantic:Semantics_hV49:params:semanticData = "DesignedHandle"
             string semantic:Semantics_hV49:params:semanticType = "class"
             matrix4d xformOp:transform = ( (1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (-0.032089, 0.460513, 0.973703, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3443,7 +3443,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_GW1U:params:semanticData = "Handle"
+            string semantic:Semantics_GW1U:params:semanticData = "DesignedHandle"
             string semantic:Semantics_GW1U:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.463156, -0.0155998, -0.389834, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3582,7 +3582,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_pw9w:params:semanticData = "Handle"
+            string semantic:Semantics_pw9w:params:semanticData = "DesignedHandle"
             string semantic:Semantics_pw9w:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00091816, -0.247929, 0.0840143, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3721,7 +3721,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_AFkr:params:semanticData = "Handle"
+            string semantic:Semantics_AFkr:params:semanticData = "DesignedHandle"
             string semantic:Semantics_AFkr:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00145845, -0.249094, 0.150606, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -3820,7 +3820,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_dewN:params:semanticData = "Handle"
+            string semantic:Semantics_dewN:params:semanticData = "DesignedHandle"
             string semantic:Semantics_dewN:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.25886, -0.00184994, -0.105189, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -4599,7 +4599,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_z942:params:semanticData = "Handle"
+            string semantic:Semantics_z942:params:semanticData = "DesignedHandle"
             string semantic:Semantics_z942:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.465343, -0.00799103, -0.3616, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -4839,7 +4839,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_t7QD:params:semanticData = "Handle"
+            string semantic:Semantics_t7QD:params:semanticData = "DesignedHandle"
             string semantic:Semantics_t7QD:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.465383, 0.00804657, 0.317868, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -5361,7 +5361,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_Zjqo:params:semanticData = "Handle"
+            string semantic:Semantics_Zjqo:params:semanticData = "DesignedHandle"
             string semantic:Semantics_Zjqo:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00142363, -0.249809, 0.0167695, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -5500,7 +5500,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_geAd:params:semanticData = "Handle"
+            string semantic:Semantics_geAd:params:semanticData = "DesignedHandle"
             string semantic:Semantics_geAd:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00106413, -0.250711, 0.0850084, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -5639,7 +5639,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_5qtV:params:semanticData = "Handle"
+            string semantic:Semantics_5qtV:params:semanticData = "DesignedHandle"
             string semantic:Semantics_5qtV:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00102875, -0.248882, 0.15027, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -5756,7 +5756,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_PkUj:params:semanticData = "Handle"
+            string semantic:Semantics_PkUj:params:semanticData = "DesignedHandle"
             string semantic:Semantics_PkUj:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00124599, -0.246623, 0.0172039, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -5895,7 +5895,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_tEMw:params:semanticData = "Handle"
+            string semantic:Semantics_tEMw:params:semanticData = "DesignedHandle"
             string semantic:Semantics_tEMw:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00397854, -0.246862, 0.0854179, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -6034,7 +6034,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_aOPp:params:semanticData = "Handle"
+            string semantic:Semantics_aOPp:params:semanticData = "DesignedHandle"
             string semantic:Semantics_aOPp:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00402777, -0.247122, 0.151166, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -6192,7 +6192,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_zJp8:params:semanticData = "Handle"
+            string semantic:Semantics_zJp8:params:semanticData = "DesignedHandle"
             string semantic:Semantics_zJp8:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.0169432, -0.0549352, 0.678848, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -6681,7 +6681,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_2FFU:params:semanticData = "Handle"
+            string semantic:Semantics_2FFU:params:semanticData = "DesignedHandle"
             string semantic:Semantics_2FFU:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00331339, -0.249002, 0.350717, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -6890,7 +6890,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_u6x5:params:semanticData = "Handle"
+            string semantic:Semantics_u6x5:params:semanticData = "DesignedHandle"
             string semantic:Semantics_u6x5:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00142363, -0.249809, 0.0167695, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7029,7 +7029,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_GT9S:params:semanticData = "Handle"
+            string semantic:Semantics_GT9S:params:semanticData = "DesignedHandle"
             string semantic:Semantics_GT9S:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00106413, -0.250711, 0.0850084, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7168,7 +7168,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_jH9V:params:semanticData = "Handle"
+            string semantic:Semantics_jH9V:params:semanticData = "DesignedHandle"
             string semantic:Semantics_jH9V:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (-0.00102875, -0.248882, 0.15027, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7285,7 +7285,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_qx8N:params:semanticData = "Handle"
+            string semantic:Semantics_qx8N:params:semanticData = "DesignedHandle"
             string semantic:Semantics_qx8N:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00124599, -0.246623, 0.0172039, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7424,7 +7424,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_zpc9:params:semanticData = "Handle"
+            string semantic:Semantics_zpc9:params:semanticData = "DesignedHandle"
             string semantic:Semantics_zpc9:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00397854, -0.246862, 0.0854179, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7563,7 +7563,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_bS2F:params:semanticData = "Handle"
+            string semantic:Semantics_bS2F:params:semanticData = "DesignedHandle"
             string semantic:Semantics_bS2F:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00402777, -0.247122, 0.151166, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7680,7 +7680,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_cpYU:params:semanticData = "Handle"
+            string semantic:Semantics_cpYU:params:semanticData = "DesignedHandle"
             string semantic:Semantics_cpYU:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00124599, -0.246623, 0.0172039, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7819,7 +7819,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_aPSL:params:semanticData = "Handle"
+            string semantic:Semantics_aPSL:params:semanticData = "DesignedHandle"
             string semantic:Semantics_aPSL:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00397854, -0.246862, 0.0854179, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
@@ -7958,7 +7958,7 @@ def Xform "world"
             point3f physics:centerOfMass = (-0.017291656, 0, 0)
             float3 physics:diagonalInertia = (0.000118450924, 0.000116826224, 0.000002638771)
             float physics:mass = 0
-            string semantic:Semantics_MqLC:params:semanticData = "Handle"
+            string semantic:Semantics_MqLC:params:semanticData = "DesignedHandle"
             string semantic:Semantics_MqLC:params:semanticType = "class"
             matrix4d xformOp:transform = ( (2.220446049250313e-16, 0.9999999999999998, 0, 0), (-0.9999999999999998, 2.220446049250313e-16, 0, 0), (0, 0, 1, 0), (0.00402777, -0.247122, 0.151166, 1) )
             uniform token[] xformOpOrder = ["xformOp:transform"]
