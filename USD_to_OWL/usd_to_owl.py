@@ -20,7 +20,6 @@ def import_ontologies(url_list: list):
     for url in url_list:
         onto = get_ontology(url)
         onto.load()
-        print(list(onto.classes()))
         ontos.append(onto)
     return ontos
 
